@@ -19,3 +19,7 @@
 .menu-items {
   font-family: "Jost", sans-serif;
 }
+
+.active {
+  color: #b91c1c;
+}

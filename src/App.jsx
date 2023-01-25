@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-stone-200">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

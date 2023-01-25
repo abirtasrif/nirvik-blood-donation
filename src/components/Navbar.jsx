@@ -10,12 +10,37 @@ const Navbar = () => {
             নি<span className="text-red-600">র্ভী</span>ক
           </p>
         </div>
-        <div className="menu-items flex flex-row items-center gap-6 text-lg uppercase">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/blog">Blog</NavLink>
-          <NavLink to="/gallery">Gallery</NavLink>
-          <NavLink to="/about">About Us</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+        <div className="menu-items flex flex-row items-center gap-6 text-lg uppercase relative">
+          <NavLink
+            className=" text-green-900 hover:text-red-600 duration-300"
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className=" text-green-900 hover:text-red-600 duration-300"
+            to="/blog"
+          >
+            Blog
+          </NavLink>
+          <NavLink
+            className=" text-green-900 hover:text-red-600 duration-300"
+            to="/gallery"
+          >
+            Gallery
+          </NavLink>
+          <NavLink
+            className=" text-green-900 hover:text-red-600 duration-300"
+            to="/about"
+          >
+            About Us
+          </NavLink>
+          <NavLink
+            className=" text-green-900 hover:text-red-600 duration-300"
+            to="/contact"
+          >
+            Contact
+          </NavLink>
         </div>
       </div>
     </div>
