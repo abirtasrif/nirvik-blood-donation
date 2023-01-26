@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100;300;400;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,16 +10,31 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
 }
 
-.logo {
-  font-family: "Noto Sans Bengali", sans-serif;
+.nav-left {
+  background-color: #f3f3f3;
+  width: 30%;
+  display: inline;
+}
+
+.nav-right {
+  width: 70%;
+  background-image: linear-gradient(to Right, #544440, #1b1617);
 }
 
 .menu-items {
-  font-family: "Jost", sans-serif;
+  color: #f3f3f3;
 }
 
 .active {
-  color: #b91c1c;
+  color: rgba(220, 38, 38, 0.9);
 }
+
+.nirvik {
+  color: #9a2624;
+  font-family: "Varela Round", sans-serif;
+}
+
+/* font-family: "Jost", sans-serif; */
