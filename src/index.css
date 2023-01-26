@@ -18,19 +18,17 @@ html {
   overflow-y: overlay;
 }
 
-.left {
-  background-color: #f3f3f3;
-  width: 30%;
-  display: inline;
-}
-
-.right {
-  width: 70%;
-  background-image: linear-gradient(to Right, #544440, #1b1617);
-}
-
 body {
   overflow-x: hidden;
+}
+
+.blank {
+  background-color: white;
+}
+
+.home,
+.nav-items {
+  background: linear-gradient(to Right, #f3f3f3 0% 30%, #544440 30%, #1b1617);
 }
 
 .menu-items {
@@ -38,7 +36,7 @@ body {
 }
 
 .active {
-  color: rgba(220, 38, 38, 0.9);
+  color: #e73732;
 }
 
 .nirvik {
@@ -46,4 +44,13 @@ body {
   font-family: "Varela Round", sans-serif;
 }
 
-/* font-family: "Jost", sans-serif; */
+.hero-cta-text {
+  color: #e73732;
+  font-family: "Jost", sans-serif;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.hero-img-container {
+  max-width: 70%;
+}

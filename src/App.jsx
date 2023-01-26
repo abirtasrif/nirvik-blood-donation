@@ -12,7 +12,7 @@ import { useSmoothScroll } from "./hooks/useSmoothScroll";
 const App = () => {
   useSmoothScroll();
   return (
-    <div>
+    <div className="relative">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

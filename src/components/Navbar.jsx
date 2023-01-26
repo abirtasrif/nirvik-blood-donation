@@ -4,9 +4,10 @@ import { BsFillDropletFill } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <div className="navbar mt-6 fixed top-0 w-full">
-      <div className="nav-items container mx-auto flex flex-row justify-between items-center">
-        <div className="left h-16 pl-5 py-4 rounded-tl-lg">
+    <div className="navbar fixed top-0 w-full">
+      <div className="blank h-10"></div>
+      <div className="nav-items container mx-auto flex flex-row justify-between items-center ">
+        <div className="left h-16 pl-5 py-4 rounded-tl-lg ">
           <div className="logo text-3xl font-medium">
             <p className="logo-title flex flex-row">
               <span>
@@ -16,7 +17,7 @@ const Navbar = () => {
             </p>
           </div>
         </div>
-        <div className="right h-16 py-5 pr-6 rounded-tr-2xl">
+        <div className="right h-16 py-5 pr-6">
           <div className="menu-items flex flex-row items-center gap-6 text-lg uppercase justify-end">
             <NavLink className="hover:text-red-600 duration-300" to="/">
               Home
