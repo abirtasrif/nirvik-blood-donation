@@ -13,15 +13,24 @@
   font-family: "Varela Round", sans-serif;
 }
 
-.nav-left {
+html {
+  overflow-y: scroll;
+  overflow-y: overlay;
+}
+
+.left {
   background-color: #f3f3f3;
   width: 30%;
   display: inline;
 }
 
-.nav-right {
+.right {
   width: 70%;
   background-image: linear-gradient(to Right, #544440, #1b1617);
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .menu-items {

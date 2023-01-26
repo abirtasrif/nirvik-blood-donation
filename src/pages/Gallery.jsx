@@ -1,7 +1,7 @@
 import React from "react";
 
 const Gallery = () => {
-  return <div>Gallery</div>;
+  return <div className="gallery mt-[5.5rem]">Gallery</div>;
 };
 
 export default Gallery;
