@@ -7,8 +7,10 @@ import About from "./pages/AboutUs";
 import Blog from "./pages/Blog";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import { useSmoothScroll } from "./hooks/useSmoothScroll";
 
 const App = () => {
+  useSmoothScroll();
   return (
     <div>
       <Navbar />
