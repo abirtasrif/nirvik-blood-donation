@@ -28,7 +28,7 @@ body {
 
 .home,
 .nav-items {
-  background: linear-gradient(to Right, #f3f3f3 0% 30%, #544440 30%, #1b1617);
+  background: linear-gradient(to Right, #f3f3f3 0% 35%, #544440 35%, #1b1617);
 }
 
 .menu-items {
@@ -53,4 +53,8 @@ body {
 
 .hero-img-container {
   max-width: 70%;
+}
+
+button {
+  font-family: "Jost", sans-serif;
 }
