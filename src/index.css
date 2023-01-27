@@ -16,6 +16,9 @@
 html {
   overflow-y: scroll;
   overflow-y: overlay;
+  background-image: url("../public/nirvik-bg.svg");
+  background-repeat: no-repeat !important;
+  background-size: cover;
 }
 
 body {
@@ -23,12 +26,22 @@ body {
 }
 
 .blank {
+  background-image: url("../public/nirvik-bg.svg");
+  background-repeat: no-repeat !important;
   background-color: white;
+  background-size: cover;
 }
 
-.home,
 .nav-items {
-  background: linear-gradient(to Right, #f3f3f3 0% 35%, #544440 35%, #1b1617);
+  background: linear-gradient(to Right, #e8dddd 0% 35%, #544440 35%, #1b1617);
+}
+.home {
+  background: linear-gradient(
+    to Right,
+    rgba(243, 243, 243, 0.9) 0% 35%,
+    #544440 35%,
+    #1b1617
+  );
 }
 
 .menu-items {

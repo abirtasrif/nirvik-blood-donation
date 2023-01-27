@@ -3,7 +3,7 @@ import { isWebpSupported } from "react-image-webp/dist/utils";
 
 const Home = () => {
   return (
-    <div className="home container mx-auto flex flex-row mt-[5.5rem]">
+    <div className="home container mx-auto flex flex-row mt-[6.5rem]">
       <div className="hero pl-6 pt-24">
         <div className="hero-cta">
           <h1 className="hero-cta-text uppercase text-7xl pt-9 leading-[4.5rem]">
