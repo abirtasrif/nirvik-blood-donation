@@ -33,14 +33,22 @@ body {
 }
 
 .nav-items {
-  background: linear-gradient(to Right, #e8dddd 0% 35%, #544440 35%, #1b1617);
-}
-.home {
   background: linear-gradient(
     to Right,
-    rgba(243, 243, 243, 0.9) 0% 35%,
-    #544440 35%,
+    #e8dddd 0% 35%,
+    rgba(84, 68, 64, 0.98) 35%,
     #1b1617
+  );
+}
+.home,
+.blog,
+.gallery,
+.about {
+  background: linear-gradient(
+    to Right,
+    rgba(243, 243, 243, 0.95) 0% 35%,
+    rgba(84, 68, 64, 0.98) 35%,
+    rgba(27, 22, 23)
   );
 }
 

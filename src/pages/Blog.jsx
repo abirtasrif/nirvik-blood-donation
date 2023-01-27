@@ -3,7 +3,7 @@ import BlogPost from "../components/BlogPost";
 
 const Blog = () => {
   return (
-    <div className="blog mt-[6.5rem]">
+    <div className="blog container mx-auto mt-[6.5rem]">
       <BlogPost />
     </div>
   );
