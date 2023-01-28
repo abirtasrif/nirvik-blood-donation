@@ -1,13 +1,29 @@
 import React from "react";
 import { isWebpSupported } from "react-image-webp/dist/utils";
+import { useRef } from "react";
+import { useGsapDroppingText } from "../hooks/gsap";
+import { useGsapSlideFromRight } from "../hooks/gsap";
 
 const Hero = () => {
+  const heroRef = useRef(null);
+  const heroTitleRef = useRef(null);
+  const heroImgRef = useRef(null);
+
+  useGsapDroppingText(heroTitleRef, heroRef);
+  useGsapSlideFromRight(heroImgRef, heroRef);
+
   return (
-    <div className="home container mx-auto flex flex-row mt-[6.5rem]">
+    <div
+      className="home container mx-auto flex flex-row mt-[6.5rem]"
+      ref={heroRef}
+    >
       <div className="hero pl-6 pt-24">
         <div className="hero-cta">
-          <h1 className="hero-cta-text uppercase text-7xl pt-9 leading-[4.5rem]">
-            Save a life today.
+          <h1
+            className="hero-cta-text uppercase text-7xl pt-9 leading-[4.5rem]"
+            ref={heroTitleRef}
+          >
+            Save a life today !
             <br />
             Donate blood.
           </h1>
@@ -21,7 +37,7 @@ const Hero = () => {
           Join Our Program
         </button>
       </div>
-      <div className="hero-img-container">
+      <div className="hero-img-container" ref={heroImgRef}>
         {isWebpSupported() ? (
           <img
             src="https://i.ibb.co/xs7QQVf/donate.webp"
