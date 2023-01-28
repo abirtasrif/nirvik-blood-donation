@@ -4,7 +4,7 @@ import { BsFillDropletFill } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <div className="navbar fixed top-0 w-full">
+    <div className="navbar fixed top-0 w-full z-30">
       <div className="blank h-10"></div>
       <div className="nav-items container mx-auto flex flex-row justify-between items-center ">
         <div className="left h-16 pl-5 py-4 rounded-tl-lg ">
@@ -24,9 +24,6 @@ const Navbar = () => {
             </NavLink>
             <NavLink className="hover:text-red-600 duration-300" to="/blog">
               Blog
-            </NavLink>
-            <NavLink className="hover:text-red-600 duration-300" to="/gallery">
-              Gallery
             </NavLink>
             <NavLink className="hover:text-red-600 duration-300" to="/about">
               About Us

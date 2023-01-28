@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/AboutUs";
 import Blog from "./pages/Blog";
-import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import { useSmoothScroll } from "./hooks/useSmoothScroll";
 
@@ -18,7 +17,6 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />

@@ -16,7 +16,7 @@
 html {
   overflow-y: scroll;
   overflow-y: overlay;
-  background-image: url("../public/nirvik-bg.svg");
+  background-image: url("./assets/nirvik-bg.svg");
   background-repeat: no-repeat !important;
   background-size: cover;
 }
@@ -26,7 +26,7 @@ body {
 }
 
 .blank {
-  background-image: url("../public/nirvik-bg.svg");
+  background-image: url("./assets/nirvik-bg.svg");
   background-repeat: no-repeat !important;
   background-color: rgb(255, 255, 255);
   background-size: cover;
@@ -50,16 +50,8 @@ body {
   );
 }
 
-.blog {
-  background: linear-gradient(
-    to Right,
-    rgba(243, 243, 243) 0% 35%,
-    rgba(84, 68, 64) 35% 65%,
-    rgba(243, 243, 243) 65% 100%
-  );
-}
-
-.menu-items {
+.menu-items,
+.blog-post {
   color: #f3f3f3;
 }
 
@@ -85,4 +77,49 @@ body {
 
 button {
   font-family: "Jost", sans-serif;
+}
+
+.blog-grid1 {
+  background: linear-gradient(rgba(84, 68, 64, 0.5), rgba(84, 68, 64, 0.5)),
+    url("https://img.freepik.com/free-photo/impressive-bright-color-brush-falling-powder_23-2148209037.jpg?w=740&t=st=1671358880~exp=1671359480~hmac=216ef77ae16e7e48422f12b53c46a89b1d00f4d5673886a1ae851078f18f5667");
+  transition: all 0.3s linear;
+}
+.blog-grid2 {
+  background: linear-gradient(rgba(84, 68, 64, 0.5), rgba(84, 68, 64, 0.5)),
+    url("https://img.freepik.com/free-photo/amazing-flying-colorful-dye-cloud_23-2148209031.jpg?w=740&t=st=1671359018~exp=1671359618~hmac=c16a8555d41bad514a7a270a1dee25a355acdc8c74c31922f4297577b38eaab6");
+  transition: all 0.3s linear;
+}
+.blog-grid3 {
+  background: linear-gradient(rgba(84, 68, 64, 0.5), rgba(84, 68, 64, 0.5)),
+    url("https://img.freepik.com/free-photo/road-rock-formation-table-mountain-national-park-africa_181624-14785.jpg?w=740&t=st=1671359197~exp=1671359797~hmac=a1fd980b30180e4e37d11936b5e1163ca45f2619f9efb2a8d3ccb1f89a9017e8");
+  transition: all 0.3s linear;
+}
+.blog-grid4 {
+  background: linear-gradient(rgba(84, 68, 64, 0.5), rgba(84, 68, 64, 0.5)),
+    url("https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?w=740&t=st=1671359381~exp=1671359981~hmac=2124efddcaf0a744ada556b71bdac53f714895142d562cbeb5df825804fb099b");
+  transition: all 0.3s linear;
+}
+
+.blog-grid5 {
+  background: linear-gradient(rgba(84, 68, 64, 0.5), rgba(84, 68, 64, 0.5)),
+    url("https://img.freepik.com/free-photo/closeup-shot-ferns-spots-fern-are-spores_181624-36493.jpg?w=740&t=st=1671359227~exp=1671359827~hmac=20dc100b9b69ae4f5b743c9bfb84724eb495f8a710326b344bff5eceed97547c");
+  transition: all 0.3s linear;
+}
+.blog-grid6 {
+  background: linear-gradient(rgba(84, 68, 64, 0.5), rgba(84, 68, 64, 0.5)),
+    url("https://img.freepik.com/free-photo/beautiful-shot-steep-hills-desert-with-amazing-cloudy-sky_181624-889.jpg?w=740&t=st=1671359317~exp=1671359917~hmac=14b206570bcde5e2bc1a4d0e5f8796180bfeea4ded34bac657069cfe81a103f1");
+  transition: all 0.3s linear;
+}
+
+.blog-grid1:hover,
+.blog-grid2:hover,
+.blog-grid3:hover,
+.blog-grid4:hover,
+.blog-grid5:hover,
+.blog-grid6:hover {
+  background: rgb(84, 68, 64);
+}
+
+.slider {
+  background-color: #ede7e7;
 }
